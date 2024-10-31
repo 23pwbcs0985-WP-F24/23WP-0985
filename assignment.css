@@ -1,0 +1,237 @@
+
+
+#div1{
+    margin-left: 400px;
+}
+
+nav{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(100px);
+    border-radius: 15px;
+   height: 50px;
+    box-shadow: 0 4px 15px white;
+    padding-top: 20px;
+border: 5px solid rgb(27, 42, 129);
+
+
+
+}
+
+
+
+#atag{
+    text-decoration: none;
+ padding-left:30px ;
+  
+    transition: 0.5s;
+    color: white;
+border-bottom: 5px  aqua;
+border-radius: 2px;
+width: 50px;
+height: 100px;
+box-shadow: dimgrey;
+}
+
+#btn:hover{
+background-color: black;
+color: aqua;
+box-shadow:0 4px 15px white ;
+}
+
+
+#atag:hover{
+color: aqua;
+border-bottom: 2px solid aqua;
+border-left: 2px solid aqua;
+box-shadow:0 4px 15px aqua;
+
+}
+
+#btn1{
+    background-color: black; 
+    margin-left: 75px;
+    width: 150px;height: 50px;
+    color: white;
+    
+}
+
+#btn1:hover{
+    background-color: black;
+color: aqua;
+border-bottom: 2px solid aqua;
+box-shadow: 0 5px 15px aqua;
+}
+
+#explore{
+    display: flex;
+    column-gap: 30px;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.4);
+
+
+}
+#explore_program{
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border:2px rgba(255, 255, 255, 0.4) ;
+    border: 2px solid white;
+    
+
+}
+#explore_program:hover{
+    border: 2px solid black;
+box-shadow: 0 5px 15px black;
+
+}
+
+input[type="radio"] {
+    display: none; /* Hide radio buttons */
+}
+
+.star {
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked ~ .star {
+    color: gold; /* Color for checked stars */
+}
+
+input[type="radio"]:hover ~ .star,
+.star:hover {
+    color: gold; /* Color for hovered stars */
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu > li:hover > a {
+    background-color: #575757;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu > li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li a:hover {
+    background-color: green;
+}
+#chest{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-self: center;
+  
+}
+#chestdiv{
+    box-shadow: 0 2px 10px gray;
+   border-radius: 5px;
+   text-align: center;
+}
+#back{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-self: center;
+  
+}
+#backdiv{
+    box-shadow: 0 2px 10px gray;
+   border-radius: 5px;
+   text-align: center;
+}
+#bicep1{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-self: center;
+}
+#bicepdiv{
+    box-shadow: 0 2px 10px gray;
+   border-radius: 5px;
+   text-align: center;
+}
+#tricep1{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-self: center;
+}
+#tricepdiv{
+    box-shadow: 0 2px 10px gray;
+   border-radius: 5px;
+   text-align: center;
+}
+
+#shoulder1{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-self: center;
+}
+#shoulderdiv{
+    box-shadow: 0 2px 10px gray;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.container{
+    height: 570px;
+    width: 900px;
+     border: 3px solid black; 
+ 
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+   
+    
+    margin-left: 200px;
+    
+   box-shadow: 0 5px 15px white;
+    margin-bottom: 20px;
+    
+}
+.img{
+   width: 300px;
+   height: 300px;
+
+}
+
+img
+{
+    border-radius: 5px;
+}
